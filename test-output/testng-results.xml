@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="168306" started-at="2021-06-06T11:56:26 IST" finished-at="2021-06-06T11:59:15 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="168306" started-at="2021-06-06T11:56:26 IST" finished-at="2021-06-06T11:59:15 IST">
+      <class name="tests.selenium.TC003_CreateIncidentUsingRestAndVerifyUsingSelenium">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.selenium.TC003_CreateIncidentUsingRestAndVerifyUsingSelenium@401e7803]" name="beforeSuite" is-config="true" duration-ms="718" started-at="2021-06-06T11:56:26 IST" finished-at="2021-06-06T11:56:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:tests.selenium.TC003_CreateIncidentUsingRestAndVerifyUsingSelenium@401e7803]" name="setValues" is-config="true" duration-ms="1" started-at="2021-06-06T11:56:27 IST" finished-at="2021-06-06T11:56:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.selenium.TC003_CreateIncidentUsingRestAndVerifyUsingSelenium@401e7803]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-06-06T11:56:27 IST" finished-at="2021-06-06T11:56:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.selenium.TC003_CreateIncidentUsingRestAndVerifyUsingSelenium@401e7803]" name="beforeMethod" is-config="true" duration-ms="19185" started-at="2021-06-06T11:56:27 IST" finished-at="2021-06-06T11:56:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createIncident(java.lang.String)[pri:0, instance:tests.selenium.TC003_CreateIncidentUsingRestAndVerifyUsingSelenium@401e7803]" name="createIncident" duration-ms="34344" started-at="2021-06-06T11:56:46 IST" data-provider="fetchData" finished-at="2021-06-06T11:57:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[incident]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIncident -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.selenium.TC003_CreateIncidentUsingRestAndVerifyUsingSelenium@401e7803]" name="afterMethod" is-config="true" duration-ms="4190" started-at="2021-06-06T11:57:21 IST" finished-at="2021-06-06T11:57:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.selenium.TC003_CreateIncidentUsingRestAndVerifyUsingSelenium@401e7803]" name="afterSuite" is-config="true" duration-ms="497" started-at="2021-06-06T11:59:15 IST" finished-at="2021-06-06T11:59:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.selenium.TC003_CreateIncidentUsingRestAndVerifyUsingSelenium -->
+      <class name="tests.selenium.TC001_CreateIncident">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:tests.selenium.TC001_CreateIncident@10dba097]" name="setValues" is-config="true" duration-ms="0" started-at="2021-06-06T11:56:27 IST" finished-at="2021-06-06T11:56:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.selenium.TC001_CreateIncident@10dba097]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-06-06T11:57:25 IST" finished-at="2021-06-06T11:57:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.selenium.TC001_CreateIncident@10dba097]" name="beforeMethod" is-config="true" duration-ms="15908" started-at="2021-06-06T11:57:25 IST" finished-at="2021-06-06T11:57:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createIncident(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.selenium.TC001_CreateIncident@10dba097]" name="createIncident" duration-ms="37456" started-at="2021-06-06T11:57:41 IST" data-provider="fetchData" finished-at="2021-06-06T11:58:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[incident]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ths is automated test from Makaia data 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIncident -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.selenium.TC001_CreateIncident@10dba097]" name="afterMethod" is-config="true" duration-ms="4169" started-at="2021-06-06T11:58:18 IST" finished-at="2021-06-06T11:58:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.selenium.TC001_CreateIncident -->
+      <class name="tests.selenium.TC002_CreateIncidentAndGetFromRest">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:tests.selenium.TC002_CreateIncidentAndGetFromRest@1786f9d5]" name="setValues" is-config="true" duration-ms="0" started-at="2021-06-06T11:56:27 IST" finished-at="2021-06-06T11:56:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.selenium.TC002_CreateIncidentAndGetFromRest@1786f9d5]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-06-06T11:58:22 IST" finished-at="2021-06-06T11:58:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.selenium.TC002_CreateIncidentAndGetFromRest@1786f9d5]" name="beforeMethod" is-config="true" duration-ms="16198" started-at="2021-06-06T11:58:23 IST" finished-at="2021-06-06T11:58:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createIncident(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.selenium.TC002_CreateIncidentAndGetFromRest@1786f9d5]" name="createIncident" duration-ms="31922" started-at="2021-06-06T11:58:39 IST" data-provider="fetchData" finished-at="2021-06-06T11:59:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[incident]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ths is automated test from Makaia data 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIncident -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.selenium.TC002_CreateIncidentAndGetFromRest@1786f9d5]" name="afterMethod" is-config="true" duration-ms="4149" started-at="2021-06-06T11:59:11 IST" finished-at="2021-06-06T11:59:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.selenium.TC002_CreateIncidentAndGetFromRest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
