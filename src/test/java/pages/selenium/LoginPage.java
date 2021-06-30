@@ -35,7 +35,7 @@ public class LoginPage extends PreAndPost{
 		try {
 			prop.load(new FileInputStream(new File("./src/test/resources/config.properties")));
 		} catch (Exception e) {
-			reportStep("Missing the configuration file", "FAIL");
+			reportStep("Missing the configuration files", "FAIL");
 		}
 			
 	}
